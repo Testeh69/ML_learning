@@ -2,6 +2,7 @@
 this repository contains all the notes and project that i used to developped my skills in machine learning, deep learning and artificial intelligence.
 
 Ressources:
+
 -FreeCodeCamp: 
 Machine for everybody (4 hours video) video https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
 
