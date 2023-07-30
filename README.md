@@ -1,5 +1,5 @@
 # ML_learning
-this repository contains all the notes and project that i used to developped my skills in machine learning, deep learning and artificial intiligence.
+this repository contains all the notes and project that i used to developped my skills in machine learning, deep learning and artificial intelligence.
 
 Ressources:
 -FreeCodeCamp: 
@@ -9,11 +9,17 @@ ML AND AI
 
 Machine learning is a subfield of AI that depend heavily on data science (How to handle data).
 There is 3 common types of algorithms in machine learning:
+
 -Supervised learning: where the data are labeled, we have input and output
+   
    =>Two types of problems:
+   
        -Classification: predict discrete values (binary classification and multiclass classification) like knn, Naive Bayes, Logistic regression, Neural network and so on.
+       
        -Regression: predict continous values like linear regression, neural network
+
 -Unsurpervised learning: where the computer determined features through the data that we feed in and gather into various group depending on this features
+
 -Reinforcement learning: Agent learning in interactiveenvironnment based on rewards and penalties.
 
 Data set is split into 3 data set => Training Data set, Validation data_set and testing data set
