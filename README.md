@@ -42,4 +42,4 @@ The computer does not understand letters so we have to convert letters into numb
 
 
 
-Note: I am a french student, that studies AI during his free times. There can be some erros. If you see some erros tell me via email: norefice45@gmail.com
+Note: I am a french student, that studies AI during his free times. There can be some errors. If you see some errors tell me via email: norefice45@gmail.com
