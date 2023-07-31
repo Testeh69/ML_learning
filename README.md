@@ -45,7 +45,6 @@ The computer does not understand letters so we have to convert letters into numb
 Projects:
 
 30/07/23: learning_ml_magic (classification): FreeCodeCamp
-
 31/07/23: linear_ml_algorithm (linear) : FreeCodeCamp
 
 
