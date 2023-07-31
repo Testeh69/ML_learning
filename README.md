@@ -28,7 +28,7 @@ Dataset is split into 3 dataset => Training Dataset, Validation Dataset and test
 
 NEURAL NETWORK
 
-1)the principal of a neural networks:
+1) The principal of a neural networks:
 
 A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
 
