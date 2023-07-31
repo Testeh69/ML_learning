@@ -38,6 +38,8 @@ We use activation function like "sigmoid", "tanh", "relu" so that the neural net
 
 We use as a input layers a normalization layers so that all features should be on a similar scales. The most common types is features scaling which means that we set the dataset to have a mean of 0 and a standard deviation of 1.
 
+
+
 Note ML:
 
 The computer does not understand letters so we have to convert letters into numbers.
