@@ -32,7 +32,7 @@ NEURAL NETWORK
 
 A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
 
-We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this important because the model can learn non-linear pattern.
+We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this is important because the model can learn non-linear pattern (the dataset if often non-linear).
 
 2) Neural Networks for linear regression problem:
 
