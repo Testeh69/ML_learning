@@ -34,8 +34,16 @@ A neural network is composed of layers of "neurons", the first layers is the inp
 
 We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this important because the model can learn non-linear pattern.
 
+2) Neural Networks for linear regression problem:
+
+We use as a input layers a normalization layers so that all features should be on a similar scales. The most common types is features scaling which means that we set the dataset to have a mean of 0 and a standard deviation of 1.
+
 Note ML:
 The computer does not understand letters so we have to convert letters into numbers.
+
+Projects:
+30/07/23: learning_ml_magic (classification): FreeCodeCamp
+31/07/23: linear_ml_algorithm (linear) : FreeCodeCamp
 
 
 
