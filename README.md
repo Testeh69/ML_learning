@@ -6,6 +6,9 @@ Resources:
 -FreeCodeCamp: 
 Machine learning for everybody (4 hours video) video https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
 
+-Machine Learning avec Scikit-Learn (Book O REILLY) autor Aurélion Géron
+
+
 ML AND AI
 
 Machine learning is a subfield of AI that depend heavily on data science (How to handle data).
@@ -53,6 +56,8 @@ Projects:
 31/07/23: linear_ml_algorithm (linear) : FreeCodeCamp
 
 04/08/23: Unsurpevised_learning (unsurpevised) : FreeCodeCamp
+
+04/08/23: projet_ml_california(1) (Decision_tree, linear regression)
 
 
 
