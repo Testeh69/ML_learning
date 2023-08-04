@@ -19,7 +19,9 @@ There are 3 common types of algorithms in machine learning:
        
        -Regression: predict continous values like linear regression, neural network
 
--Unsupervised learning: where the computer determined features through the data that we feed in and gathered into various groups depending on these features
+-Unsupervised learning: where the computer determined features through the data that we feed in and gathered into various groups depending on these features.
+      - K- means
+      - Principal component analysis could be used to reduce the dimensionality of the dataset in fusing features to create a new feature.
 
 -Reinforcement learning: Agent learning in interactive environnment based on rewards and penalties.
 
@@ -50,8 +52,7 @@ Projects:
 
 31/07/23: linear_ml_algorithm (linear) : FreeCodeCamp
 
-
-
+04/08/23: Unsurpevised_learning (unsurpevised) : FreeCodeCamp
 
 
 
