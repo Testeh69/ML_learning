@@ -63,7 +63,7 @@ Projects:
 
 04/08/23: projet_ml_california(1) (Decision_tree, linear regression)
 
-09/08/23: Linked list in c++
+09/08/23: Linked_list.cpp
 
 
 Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
