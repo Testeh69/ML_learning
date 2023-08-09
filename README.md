@@ -5,8 +5,10 @@ Resources:
 
 -FreeCodeCamp: 
 Machine learning for everybody (4 hours video) video https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
+Data Structures full courses using C/C++ (9:46 hours video) video https://www.youtube.com/watch?v=B31LgI4Y4DQ&t=3789s
 
 -Machine Learning avec Scikit-Learn (Book O REILLY) autor Aurélion Géron
+
 
 
 ML AND AI
@@ -59,6 +61,7 @@ Projects:
 
 04/08/23: projet_ml_california(1) (Decision_tree, linear regression)
 
+09/08/23: Linked list in c++
 
 
-Note: I am a french student, that studies AI during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
+Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
