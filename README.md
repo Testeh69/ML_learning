@@ -5,6 +5,8 @@ Resources:
 
 -FreeCodeCamp: 
 Machine learning for everybody (4 hours video) video https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
+
+-FreeCodeCamp:
 Data Structures full courses using C/C++ (9:46 hours video) video https://www.youtube.com/watch?v=B31LgI4Y4DQ&t=3789s
 
 -Machine Learning avec Scikit-Learn (Book O REILLY) autor Aurélion Géron
