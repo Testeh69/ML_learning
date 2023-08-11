@@ -117,4 +117,5 @@ We use as a input layers a normalization layers so that all features should be o
 Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
 
 
-# Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
+# Note: 
+Please note that I am a French student studying AI and computer science during my free time. While I strive for accuracy, errors may occur. If you identify any inaccuracies, kindly notify me via email at norefice45@gmail.com.
