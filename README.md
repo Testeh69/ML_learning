@@ -110,7 +110,7 @@ We use as a input layers a normalization layers so that all features should be o
 
 09/08/23: Linked_list.cpp
 
-11/08/23: Linked_List.cpp (implemented pushFront and pushBack method)
+11/08/23: Linked_List.cpp (implemented pushFront, insertAfter and pushBack method)
 
 
 # Skills developped: 
