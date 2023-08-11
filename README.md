@@ -35,17 +35,24 @@ In essence, my journey is an orchestrated sequence, with each step leading to th
 # A) linked list:
 ![Singly-Linked-List1](https://github.com/Testeh69/ML_learning/assets/123935503/e2a00cfb-236b-4fbb-adc9-3b907ab0e7f7)
 
-A linked is composed of node and each node is composed of two parts the first part contains the data, the second part is the link (address of the next data) compared to a static array (C/C++), the linked list have not a predefined length so that we can add data without thinking if the data structure can support this change.
+A linked list consists of nodes, and each node contains two main components: the data it holds and a reference (link) to the next node in the sequence. This linkage allows for the dynamic arrangement of elements, making linked lists a powerful tool when dealing with changing or unknown data sizes.
 
-For a dynamic array ( a data structure where we can introduce new data without thinking about the length of the array because it is extensible), the need of linked list is abit tricky, first and foremost the array store the data in memory, the data in memory must have countinuous address for the array to work. So if the dynamic array is too long or the program takes to much space in the memory, a linked list is need. 
+In contrast, static arrays, common in languages like C/C++, have a fixed size defined at the time of declaration. These arrays store data in contiguous memory locations, which ensures fast and direct access to elements. However, this contiguous requirement also means that the memory needs to be allocated in one continuous block. This constraint can lead to memory fragmentation and inefficiency, especially when dynamically resizing arrays.
+
+Dynamic arrays, sometimes called "dynamically resizable arrays" or "vectors" in C++, offer a way to resize arrays during runtime. They handle memory allocation and resizing internally. However, they also rely on contiguous memory allocation, which can lead to challenges as the array grows or when memory becomes fragmented.
+
+Linked lists, as you correctly pointed out, do not have the constraint of contiguous memory allocation. Each node can reside in a different memory location, and their connections are established through the links. This flexibility allows linked lists to handle dynamic allocation efficiently, making them suitable for scenarios where data size is unpredictable or where memory fragmentation is a concern.
+
+In summary, linked lists shine when it comes to handling variable-sized data structures, allowing for efficient insertion and deletion operations without the need to worry about continuous memory allocation. Dynamic arrays provide similar benefits but still rely on contiguous memory, which can lead to limitations in some cases. Both data structures have their own strengths and trade-offs, and their selection depends on the specific requirements of a given problem.
 
 ![Array-Vs-Linked-List-01](https://github.com/Testeh69/ML_learning/assets/123935503/54c1f18b-99f3-4df8-8925-a22d5ff2d1a8)
 
-In terms of BigO:
-                                                   
-1) Cost of accessing an element           Array O(1)                 Linked List O(n)
+In terms of Big O notation, linked lists offer distinct advantages and trade-offs:
 
-2) Memory requirements    Array -fixed sized (memory allocated can be unused), - memory may not be available as onel arge block        Linked list -no unused memory, -memory may be available as multiple small blocks.
+    Access Cost: Linked List - O(n), Array - O(1)
+    Memory Requirements: Linked List - Efficient memory usage, Array - Potentially unused memory
+    Insertion Cost: Linked List - O(1) at the beginning, O(n) at nth position, Array - O(n) in general
+    Ease of Use: Linked List - More prone to errors, Array - Simpler
 
 
 
@@ -85,9 +92,11 @@ We use as a input layers a normalization layers so that all features should be o
 
 
 
-Note ML:
+Note:
 
-The computer does not understand letters so we have to convert letters into numbers.
+# The computer does not understand letters so we have to convert letters into numbers.
+
+
 
 Projects:
 
@@ -105,4 +114,6 @@ Projects:
 
 
 Skills developped: C++(pointers, class),C (pointers),Python (class), git, github
+
+
 Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
