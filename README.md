@@ -3,6 +3,9 @@ this repository contains all the notes and project that i used to developed my s
 
 Resources:
 
+-FreeCodeCamp:
+Free Certification (Scientific computing with python, data analysis with python and machine learning with python)
+
 -FreeCodeCamp: 
 Machine learning for everybody (4 hours video) video https://www.youtube.com/watch?v=i_LwzRVP7bg&list=PLWKjhJtqVAblStefaz_YOVpDWqcRScc2s
 
@@ -29,13 +32,39 @@ In essence, my journey is an orchestrated sequence, with each step leading to th
 
 # 2) Data Structures
 
-A linked list:
+# A) linked list:
 ![Singly-Linked-List1](https://github.com/Testeh69/ML_learning/assets/123935503/e2a00cfb-236b-4fbb-adc9-3b907ab0e7f7)
 
+A linked is composed of node and each node is composed of two parts the first part contains the data, the second part is the link (address of the next data) compared to a static array (C/C++), the linked list have not a predefined length so that we can add data without thinking if the data structure can support this change.
+
+For a dynamic array ( a data structure where we can introduce new data without thinking about the length of the array because it is extensible), the need of linked list is abit tricky, first and foremost the array store the data in memory, the data in memory must have countinuous address for the array to work. So if the dynamic array is too long or the program takes to much space in the memory, a linked list is need. 
+
+![Array-Vs-Linked-List-01](https://github.com/Testeh69/ML_learning/assets/123935503/54c1f18b-99f3-4df8-8925-a22d5ff2d1a8)
+
+In terms of BigO:
+                                         Array               Linked List
+1) Cost of accessing an element           O(1)                  O(n)
+
+2) Memory requirement               -Fixed size               -No unused memory
+                                 (memory can allocated
+                                     can be unused)           -Memory may be availmable as
+                                                              multiple small blocks
+                                    -Memory may not be       
+                                    available               
+                                    as one large block      
 
 
+3) Cost of inserting an element
 
-# 3) Machine Learning, Deep Learning and Artificial Intelligence
+   a)At beginning                     O(n)                     O(1)
+
+   b) At end                          O(1) (array not full)   O(n)
+                                      O(n) (array full)   
+
+    c) a nth position                 O(n)                     O(n)       
+
+
+# 3) Machine Learning and Artificial Intelligence
 
 Machine learning is a subfield of AI that depend heavily on data science (How to handle data).
 There are 3 common types of algorithms in machine learning:
@@ -57,15 +86,15 @@ There are 3 common types of algorithms in machine learning:
 Dataset is split into 3 dataset => Training Dataset, Validation Dataset and testing Dataset
 
 
-NEURAL NETWORK
+# 4) NEURAL NETWORK
 
-1) The principal of a neural networks:
+# A) The principal of a neural networks:
 
 A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
 
 We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this is important because the model can learn non-linear pattern (the dataset if often non-linear).
 
-2) Neural Networks for linear regression problem:
+# B) Neural Networks for linear regression problem:
 
 We use as a input layers a normalization layers so that all features should be on a similar scales. The most common types is features scaling which means that we set the dataset to have a mean of 0 and a standard deviation of 1.
 
@@ -83,11 +112,12 @@ Projects:
 
 04/08/23: Unsurpevised_learning (unsurpevised) : FreeCodeCamp
 
-04/08/23: projet_ml_california(1) (Decision_tree, linear regression)
+04/08/23: projet_ml_california(1) (Decision_tree, linear regression (not perfected))
 
 09/08/23: Linked_list.cpp
 
-11/08/23: Linked_List.cpp (implementend pushFront and pushBack)
+11/08/23: Linked_List.cpp (implemented pushFront and pushBack method)
 
 
+Skills developped: C++(pointers, class),C (pointers),Python (class), git, github
 Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
