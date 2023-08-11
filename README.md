@@ -42,26 +42,11 @@ For a dynamic array ( a data structure where we can introduce new data without t
 ![Array-Vs-Linked-List-01](https://github.com/Testeh69/ML_learning/assets/123935503/54c1f18b-99f3-4df8-8925-a22d5ff2d1a8)
 
 In terms of BigO:
-                                         Array               Linked List
-1) Cost of accessing an element           O(1)                  O(n)
+                                                   
+1) Cost of accessing an element           Array O(1)                 Linked List O(n)
 
-2) Memory requirement               -Fixed size               -No unused memory
-                                 (memory can allocated
-                                     can be unused)           -Memory may be availmable as
-                                                              multiple small blocks
-                                    -Memory may not be       
-                                    available               
-                                    as one large block      
+2) Memory requirements    Array -fixed sized (memory allocated can be unused), - memory may not be available as onel arge block        Linked list -no unused memory, -memory may be available as multiple small blocks.
 
-
-3) Cost of inserting an element
-
-   a)At beginning                     O(n)                     O(1)
-
-   b) At end                          O(1) (array not full)   O(n)
-                                      O(n) (array full)   
-
-    c) a nth position                 O(n)                     O(n)       
 
 
 # 3) Machine Learning and Artificial Intelligence
