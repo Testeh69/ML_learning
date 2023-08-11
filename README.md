@@ -92,13 +92,13 @@ We use as a input layers a normalization layers so that all features should be o
 
 
 
-Note:
+# Note Computer science and Machine Learning:
 
-# The computer does not understand letters so we have to convert letters into numbers.
+-The computer does not understand letters so we have to convert letters into numbers.
 
 
 
-Projects:
+# Projects:
 
 30/07/23: learning_ml_magic (classification): FreeCodeCamp
 
@@ -113,7 +113,8 @@ Projects:
 11/08/23: Linked_List.cpp (implemented pushFront and pushBack method)
 
 
-Skills developped: C++(pointers, class),C (pointers),Python (class), git, github
+# Skills developped: 
+Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
 
 
-Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
+# Note: I am a french student, that studies AI and computer sciences during his free times. There can be some errors. If you see some errors Please inform me via email: norefice45@gmail.com
