@@ -106,7 +106,7 @@ We use as a input layers a normalization layers so that all features should be o
 
 04/08/23: Unsurpevised_learning (unsurpevised) : FreeCodeCamp
 
-04/08/23: projet_ml_california(1) (Decision_tree, linear regression (not perfected))
+04/08/23: projet_ml_california(1) (Decision_tree, linear regression (work in progress))
 
 09/08/23: Linked_list.cpp
 
