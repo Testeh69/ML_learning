@@ -8,55 +8,60 @@ struct Node {
     Node* link;  // Pointer to the next node in the list
 };
 
-void displayLinkedList(Node* head) {
-    Node* temp = head;
-    while (temp != nullptr) {
-        cout << temp->data << " -> ";
-        temp = temp->link;
-    }
-    cout << "NULL" << endl;
-}
 
-Node* createNode(int data) {
-    Node* newNode = new Node();
-    newNode->data = data;
-    newNode->link = nullptr;
-    return newNode;
-}
+class LinkedList
+{
+    public:
+    //init method
+    LinkedList(){
+        head = nullptr;}
 
-Node* createLinkedList() {
-    Node* A = nullptr;
-    int numberOfNodes;
-    cout << "How many nodes should your linked list have?" << endl;
-    cin >> numberOfNodes;
-
-    Node* current = nullptr;
-    for (int i = 0; i < numberOfNodes; i++) {
-        int data;
-        cout << "Enter data for node " << i + 1 << ": ";
-        cin >> data;
-        Node* newNode = createNode(data);
-        if (A == nullptr) {
-            A = newNode;
-            current = newNode;
-        } else {
-            current->link = newNode;
-            current = newNode;
+    void display(){
+        Node* current = head;
+        while (current) {
+            cout << current->data << " -> ";
+            current = current->link;
         }
+        cout << "NULL" << endl;
     }
-    return A;
+    //Insertion Method
+    void pushFront(int data){
+        Node* newNode = new Node();
+        newNode->data = data;
+        newNode->link = head;
+        head = newNode;
+    }
+
+    void pushBack(int data){
+        Node* newNode = new Node();
+        newNode->data = data;
+        newNode->link = nullptr;
+        travelGetEndNodLink()->link = newNode;
+
+    }
+
+    private:
+    
+    Node* head;
+
+    Node* travelGetEndNodLink(){
+    Node* travelPointer = head;
+    while (travelPointer && travelPointer->link){
+        travelPointer = travelPointer->link;
+    }
+    return travelPointer; // Changer pour "return travelPointer->link;" pour obtenir le dernier nœud
 }
 
-int main() {
-    Node* A = createLinkedList();
-    displayLinkedList(A);
 
-    // Clean up: Deallocate the dynamically allocated memory
-    while (A != nullptr) {
-        Node* temp = A;
-        A = A->link;
-        delete temp;
-    }
+};
+
+
+int main(){
+    LinkedList firstLinkedList;
+    firstLinkedList.pushFront(3);
+    firstLinkedList.display();
+    firstLinkedList.pushBack(9);
+    firstLinkedList.display();
 
     return 0;
 }
