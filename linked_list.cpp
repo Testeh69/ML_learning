@@ -25,6 +25,7 @@ class LinkedList
         cout << "NULL" << endl;
     }
     //Insertion Method
+
     void pushFront(int data){
         Node* newNode = new Node();
         newNode->data = data;
@@ -36,7 +37,15 @@ class LinkedList
         Node* newNode = new Node();
         newNode->data = data;
         newNode->link = nullptr;
-        travelGetEndNodLink()->link = newNode;
+        travelGetEndNodeLink()->link = newNode;
+
+    }
+
+    void insertAfter(int nodePosition,int data){
+        Node* newNode = new Node();
+        newNode->data = data;
+        newNode->link = travelGetNthPlusOnePositionNodeLink(nodePosition);
+        travelGetNthPositionNodeLink(nodePosition)->link = newNode;
 
     }
 
@@ -44,13 +53,30 @@ class LinkedList
     
     Node* head;
 
-    Node* travelGetEndNodLink(){
-    Node* travelPointer = head;
-    while (travelPointer && travelPointer->link){
-        travelPointer = travelPointer->link;
+    Node* travelGetEndNodeLink(){
+        Node* travelPointer = head;
+        while (travelPointer && travelPointer->link){
+            travelPointer = travelPointer->link;
+        }
+        return travelPointer; // Changer pour "return travelPointer->link;" pour obtenir le dernier nœud
     }
-    return travelPointer; // Changer pour "return travelPointer->link;" pour obtenir le dernier nœud
-}
+
+    Node* travelGetNthPositionNodeLink(int nthPosition){
+        Node* travelPointer = head;
+        for (int i= 0; i< nthPosition - 1; i++){
+            travelPointer = travelPointer->link;
+        };
+        return travelPointer;
+    }
+
+    
+    Node* travelGetNthPlusOnePositionNodeLink(int nthPosition){
+        Node* travelPointer = head;
+        for (int i= 0; i<= nthPosition - 1; i++){
+            travelPointer = travelPointer->link;
+        }
+        return travelPointer;
+    } 
 
 
 };
@@ -59,9 +85,12 @@ class LinkedList
 int main(){
     LinkedList firstLinkedList;
     firstLinkedList.pushFront(3);
-    firstLinkedList.display();
     firstLinkedList.pushBack(9);
+    firstLinkedList.pushFront(10);
     firstLinkedList.display();
-
+    firstLinkedList.pushBack(7);
+    firstLinkedList.display();
+    firstLinkedList.insertAfter(1, 2);
+    firstLinkedList.display();
     return 0;
 }
