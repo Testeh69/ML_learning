@@ -49,9 +49,36 @@ class LinkedList
 
     }
 
+    //delete method
+
+    void popFront(){
+        Node* pointerErase = head;
+        head = head->link;
+        delete pointerErase;
+    }
+
+    void popBack(){
+        Node* pointerErase = head;
+        Node* pointerCorrectif = head;
+        pointerCorrectif = travelGetBeforeLastNodeLink();
+        pointerErase = travelGetEndNodeLink();
+        pointerCorrectif -> link = nullptr;
+        delete pointerErase;
+        
+    }
+
     private:
     
     Node* head;
+
+    Node* travelGetBeforeLastNodeLink(){
+        Node* travelPointer = head;
+        while (travelPointer ->link->link){
+            travelPointer = travelPointer->link;
+
+        }
+        return travelPointer;
+    }
 
     Node* travelGetEndNodeLink(){
         Node* travelPointer = head;
@@ -91,6 +118,10 @@ int main(){
     firstLinkedList.pushBack(7);
     firstLinkedList.display();
     firstLinkedList.insertAfter(1, 2);
+    firstLinkedList.display();
+    firstLinkedList.popFront();
+    firstLinkedList.display();
+    firstLinkedList.popBack();
     firstLinkedList.display();
     return 0;
 }
