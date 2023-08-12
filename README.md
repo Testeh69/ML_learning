@@ -112,6 +112,8 @@ We use as a input layers a normalization layers so that all features should be o
 
 11/08/23: Linked_List.cpp (implemented pushFront, insertAfter and pushBack method)
 
+12/08/23: Linked_List.cpp(implmented popFront, popBack method)
+
 
 # Skills developped: 
 Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
