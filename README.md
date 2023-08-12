@@ -41,7 +41,7 @@ In contrast, static arrays, common in languages like C/C++, have a fixed size de
 
 Dynamic arrays, sometimes called "dynamically resizable arrays" or "vectors" in C++, offer a way to resize arrays during runtime. They handle memory allocation and resizing internally. However, they also rely on contiguous memory allocation, which can lead to challenges as the array grows or when memory becomes fragmented.
 
-Linked lists, as you correctly pointed out, do not have the constraint of contiguous memory allocation. Each node can reside in a different memory location, and their connections are established through the links. This flexibility allows linked lists to handle dynamic allocation efficiently, making them suitable for scenarios where data size is unpredictable or where memory fragmentation is a concern.
+Linked lists, do not have the constraint of contiguous memory allocation. Each node can reside in a different memory location, and their connections are established through the links. This flexibility allows linked lists to handle dynamic allocation efficiently, making them suitable for scenarios where data size is unpredictable or where memory fragmentation is a concern.
 
 In summary, linked lists shine when it comes to handling variable-sized data structures, allowing for efficient insertion and deletion operations without the need to worry about continuous memory allocation. Dynamic arrays provide similar benefits but still rely on contiguous memory, which can lead to limitations in some cases. Both data structures have their own strengths and trade-offs, and their selection depends on the specific requirements of a given problem.
 
