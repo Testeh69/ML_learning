@@ -67,6 +67,40 @@ class LinkedList
         
     }
 
+    void removeNode(int node){
+        Node* pointerErase = head;
+        Node* pointerCorrectifBeforeTarget = head;
+        Node* pointerCorrectifAfterTarget = head;
+        pointerCorrectifBeforeTarget = travelGetNthPositionNodeLink(node-1);
+        pointerCorrectifAfterTarget = travelGetNthPositionNodeLink(node+1);
+        pointerErase = travelGetNthPositionNodeLink(node);
+        delete pointerErase;
+        pointerCorrectifBeforeTarget->link = pointerCorrectifAfterTarget;
+
+    }
+
+
+    //Traversal Method
+
+    int getHead(){
+        int dataReturn = head ->data;
+        return dataReturn;
+    }
+
+    int getTail(){
+        Node* pointerToGetData = head;
+        pointerToGetData = travelGetEndNodeLink();
+        int dataReturn = pointerToGetData->data;
+        return dataReturn;
+    }
+
+    int getNode(int node){
+        Node* pointerToGetData = head;
+        pointerToGetData = travelGetNthPositionNodeLink(node);
+        int dataReturn = pointerToGetData->data;
+        return dataReturn;
+    }
+
     private:
     
     Node* head;
@@ -114,14 +148,17 @@ int main(){
     firstLinkedList.pushFront(3);
     firstLinkedList.pushBack(9);
     firstLinkedList.pushFront(10);
-    firstLinkedList.display();
     firstLinkedList.pushBack(7);
-    firstLinkedList.display();
     firstLinkedList.insertAfter(1, 2);
+    firstLinkedList.pushBack(7);
+    firstLinkedList.pushFront(77);
+    firstLinkedList.pushFront(100);
     firstLinkedList.display();
-    firstLinkedList.popFront();
+    firstLinkedList.removeNode(4);
     firstLinkedList.display();
-    firstLinkedList.popBack();
-    firstLinkedList.display();
+    int position = 5;
+    cout <<"Head :"<< firstLinkedList.getHead() << endl;
+    cout <<"Tail :"<< firstLinkedList.getTail() << endl;
+    cout <<"Position ("<<position<<"): "<<firstLinkedList.getNode(position)<<endl;
     return 0;
 }
