@@ -101,6 +101,35 @@ class LinkedList
         return dataReturn;
     }
 
+    //search and access method
+
+    bool isEmpty(){
+        return (head==nullptr);
+    }
+
+    int size(){
+
+        Node* pointerToCountSize = head;
+        int compteurSize = 1;
+        while (pointerToCountSize && pointerToCountSize->link){
+            compteurSize ++;
+            pointerToCountSize = pointerToCountSize->link;
+        }
+        return compteurSize;
+    }
+
+    bool contains(int data){
+        Node* current = head;
+        while (current) {
+            if (current->data == data) {
+                return true;  // Element found in the list
+            }
+            current = current->link;
+        }
+        return false;  // Element not found in the list
+        }
+
+
     private:
     
     Node* head;
@@ -146,19 +175,18 @@ class LinkedList
 int main(){
     LinkedList firstLinkedList;
     firstLinkedList.pushFront(3);
+    firstLinkedList.display();
+    cout<<firstLinkedList.contains(77)<<endl;
+
+    cout<<"Size: "<<firstLinkedList.size()<<endl;
     firstLinkedList.pushBack(9);
-    firstLinkedList.pushFront(10);
     firstLinkedList.pushBack(7);
-    firstLinkedList.insertAfter(1, 2);
-    firstLinkedList.pushBack(7);
+    firstLinkedList.display();
+    cout<<"Size: "<<firstLinkedList.size()<<endl;
     firstLinkedList.pushFront(77);
+    firstLinkedList.display();
+    cout<<firstLinkedList.contains(77)<<endl;
+    cout<<"Size: "<<firstLinkedList.size()<<endl;
     firstLinkedList.pushFront(100);
-    firstLinkedList.display();
-    firstLinkedList.removeNode(4);
-    firstLinkedList.display();
-    int position = 5;
-    cout <<"Head :"<< firstLinkedList.getHead() << endl;
-    cout <<"Tail :"<< firstLinkedList.getTail() << endl;
-    cout <<"Position ("<<position<<"): "<<firstLinkedList.getNode(position)<<endl;
     return 0;
 }
