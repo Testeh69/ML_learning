@@ -114,6 +114,8 @@ We use as a input layers a normalization layers so that all features should be o
 
 12/08/23: Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode method)
 
+13/08/23: Linked_List.cpp(implemented isEmpty, size, contains method)
+
 
 # Skills developped: 
 Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
