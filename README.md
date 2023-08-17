@@ -55,6 +55,7 @@ In terms of Big O notation, linked lists offer distinct advantages and trade-off
     Ease of Use: Linked List - More prone to errors, Array - Simpler
 
 
+Doubly linked lists offers a link to the previous node contrary to the simple linked list. This made the action of deletion an element more suited.
 
 # 3) Machine Learning and Artificial Intelligence
 
@@ -115,6 +116,8 @@ We use as a input layers a normalization layers so that all features should be o
 12/08/23: Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode method)
 
 13/08/23: Linked_List.cpp(implemented isEmpty, size, contains method)
+
+17/08/23:Doubly_Linked_List.cpp(implemented pushFront, pushBack method)
 
 
 # Skills developped: 
