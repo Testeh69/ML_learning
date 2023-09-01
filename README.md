@@ -119,6 +119,8 @@ We use as a input layers a normalization layers so that all features should be o
 
 17/08/23:Doubly_Linked_List.cpp(implemented pushFront, pushBack method)
 
+01/09/23:Doubly_Linked_List.cpp(implemented insertAfter method)
+
 
 # Skills developped: 
 Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
