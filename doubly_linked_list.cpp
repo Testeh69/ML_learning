@@ -48,14 +48,19 @@ class DoublyLinkedList{
     }
 
     void insertAfter(int nodePosition, int data){
-        Node* newNode = new Node();
-        newNode->data = data;
-        newNode->link_next = travelGetNthNodeLink(nodePosition);
-        newNode->link_prev = travelGetNthNodeLink(nodePosition-1);
-        travelGetNthNodeLink(nodePosition)->link_next = newNode;
+        Node* newNode = new Node();//Crée un nouveau bloc mémoire qui lie deux pointer avec une case int
+        Node* saveNode = travelGetNthNodeLink(nodePosition+1);
+        newNode->data = data; // Attribue à la case int une valeur int data
         travelGetNthNodeLink(nodePosition+1)->link_prev = newNode;
+        newNode->link_next = saveNode;
+        travelGetNthNodeLink(nodePosition)->link_next = newNode;
+        cout<<travelGetNthNodeLink(nodePosition)->data<<endl;
+        newNode->link_prev = travelGetNthNodeLink(nodePosition-1);
+        
 
     }
+
+    //Delete Method
 
 
 
@@ -74,9 +79,7 @@ class DoublyLinkedList{
 
     Node* travelGetNthNodeLink(int positionNode){
         Node* travelPointer = head;
-        int compteurPas = 0;
-        while (compteurPas != positionNode){
-            compteurPas ++;
+        for (int compteurPas = 1; compteurPas < positionNode;compteurPas++){
             travelPointer = travelPointer->link_next;
         }
         return travelPointer;
@@ -89,9 +92,12 @@ int main(){
     DoublyLinkedList firstDoublyLinkedList;
     firstDoublyLinkedList.pushFront(3);
     firstDoublyLinkedList.pushBack(5);
-    firstDoublyLinkedList.pushFront(100);
-    firstDoublyLinkedList.pushBack(77);
-    firstDoublyLinkedList.insertAfter(2,27);
+    firstDoublyLinkedList.pushBack(10);
+    firstDoublyLinkedList.pushBack(7);
+    firstDoublyLinkedList.insertAfter(2,11);
     firstDoublyLinkedList.display();
+
+
+   
     return 0;
 }
