@@ -81,16 +81,34 @@ Dataset is split into 3 dataset => Training Dataset, Validation Dataset and test
 
 # 4) NEURAL NETWORK
 
+
 # A) The principal of a neural networks:
 
 A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
 
-We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this is important because the model can learn non-linear pattern (the dataset if often non-linear).
+We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this is important because the model can learn non-linear pattern (the dataset it is often non-linear).
 
 # B) Neural Networks for linear regression problem:
 
 We use as a input layers a normalization layers so that all features should be on a similar scales. The most common types is features scaling which means that we set the dataset to have a mean of 0 and a standard deviation of 1.
 
+
+# C) Encoding Techniques:
+
+On September 2, 2023, I encountered a problem during my project of coding an Emotion Detector for animals using a Convolutional Neural Network (CNN). This is a CNN-based classification model. I used .fit to train my data and labeled them from 1 to 4, representing different emotions. However, I faced challenges with the output layer of the CNN model.
+
+Initially, I set up the output layer with four neurons, each representing one of the four emotion classes. This seemed appropriate for a multi-class classification problem. However, I also considered another option: reducing the output neurons to just one, which isn't a very wise choice for a classification problem with multiple classes.
+
+The alternative approach I decided to pursue was using the One-Hot Encoding technique. This method allows me to retain the four neurons in the output layer while encoding the labels differently.
+
+One-Hot Encoding works as follows:
+
+    Emotion 1: [1, 0, 0, 0]
+    Emotion 2: [0, 1, 0, 0]
+    Emotion 3: [0, 0, 1, 0]
+    Emotion 4: [0, 0, 0, 1]
+
+In this encoding, each class corresponds to a unique binary representation, with only one element set to 1 and the others set to 0. This approach is well-suited for multi-class classification problems like emotion detection, as it allows the CNN to predict the probability distribution across all classes and make more nuanced decisions.
 
 
 # Note Computer science and Machine Learning:
