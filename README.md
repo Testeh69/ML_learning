@@ -121,6 +121,8 @@ We use as a input layers a normalization layers so that all features should be o
 
 01/09/23:Doubly_Linked_List.cpp(implemented insertAfter method)
 
+02/09/23: Doubly_Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode, isEmpty, size, contains method) 
+
 
 # Skills developped: 
 Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
