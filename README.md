@@ -94,6 +94,9 @@ Dataset is split into 3 dataset => Training Dataset, Validation Dataset and test
 
 A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
 
+![1 kisgAhX7MDn7m7RgzktjyQ](https://github.com/Testeh69/ML_learning/assets/123935503/77acc4f1-d5ef-46b6-b0da-0dd987fefffb)
+
+
 We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this is important because the model can learn non-linear pattern (the dataset it is often non-linear).
 
 # B) Neural Networks for linear regression problem:
