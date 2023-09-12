@@ -92,12 +92,30 @@ Dataset is split into 3 dataset => Training Dataset, Validation Dataset and test
 
 # A) The principal of a neural networks:
 
-A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
+Formule of a neurone output = activationFunction(somme(INPUTi*WEIGHTi) + biais) with i an integer corresponding og the number of neurones in the layers studied.
 
 ![1 kisgAhX7MDn7m7RgzktjyQ](https://github.com/Testeh69/ML_learning/assets/123935503/77acc4f1-d5ef-46b6-b0da-0dd987fefffb)
 
 
+A neural network is composed of layers of "neurons", the first layers is the input layers depend on how many dimensions of features we have and the last layers depend on how many output we have. Between this two layers there layers called hidden layers.
+
+
+
 We use activation function like "sigmoid", "tanh", "relu" so that the neural networks is not linear(not sure on how to describe how this part is important).(Modification 31/07/2023): So this is important because the model can learn non-linear pattern (the dataset it is often non-linear).
+
+Just to be sure (12/09/23):
+
+# Linear pattern:
+A strict order in the data, often in a straight line or sequence.
+Constant change in the value when increment and decrementing.
+mathematical formula: => y = ax + b (often resolved by a linear regression)
+
+# Non Linear pattern:
+The order in a data is not strict, often present in a shape of cloud of point.
+Non constant change.
+mathematical formula: Is typically described by equations that are not linear, such as exponential, logarithmic, trigonometric, or other non-linear functions.
+![maxresdefault](https://github.com/Testeh69/ML_learning/assets/123935503/08c2326f-1aba-4e5b-9856-bf8904dace93)
+
 
 # B) Neural Networks for linear regression problem:
 
