@@ -53,6 +53,12 @@ In terms of Big O notation, linked lists offer distinct advantages and trade-off
     Memory Requirements: Linked List - Efficient memory usage, Array - Potentially unused memory
     Insertion Cost: Linked List - O(1) at the beginning, O(n) at nth position, Array - O(n) in general
     Ease of Use: Linked List - More prone to errors, Array - Simpler
+# B) A Tree
+
+Contrary to the hasmap ( a dictionnary in python), linked list, array, etc... A tree is a non linear data structures. The parent of the node and the children are not precisely define (12/09/2023).
+
+![Treedatastructure](https://github.com/Testeh69/ML_learning/assets/123935503/958dc7db-b789-45f9-b2a8-4e80f54b2542)
+
 
 
 Doubly linked lists offers a link to the previous node contrary to the simple linked list. This made the action of deletion an element more suited.
@@ -143,7 +149,8 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 
 # Skills developped: 
-Data structures (linked list), C++(pointers, class),C (pointers),Python (class), git, github
+Data structures (linked list, doubly_linked_list, tree), C++(pointers, class),C (pointers),Python (class), git, github
+python (tensor flow, numpy, pandas)
 
 
 # Note: 
