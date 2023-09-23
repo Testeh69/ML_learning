@@ -63,6 +63,14 @@ Contrary to the hasmap ( a dictionnary in python), linked list, array, etc... A 
 ![Treedatastructure](https://github.com/Testeh69/ML_learning/assets/123935503/958dc7db-b789-45f9-b2a8-4e80f54b2542)
 
 
+# C) Stack
+
+All the fundamental operations of a stack (push, pop, peek, isEmpty, and getSize) are typically O(1) in time complexity. The efficiency of these operations remains constant regardless of the number of elements in the stack.
+
+The space complexity for a stack. If an array or dynamic array is used, the space complexity is O(n), where 'n' is the maximum number of elements that the stack can hold. If a linked list is used, the space complexity can be O(n) as well, considering the memory overhead for each node in the list. However, in practical scenarios, the actual memory usage can be more efficient due to dynamic memory allocation and deallocation.
+
+Stacks are indeed used in various cases, including task management, memory management, and function call stack management in languages like C++, which rely heavily on stack frames for function calls. (23/09/2023)
+
 
 
 # 3) Machine Learning and Artificial Intelligence
