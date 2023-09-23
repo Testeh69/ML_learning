@@ -158,17 +158,19 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 09/08/23: Linked_list.cpp
 
-11/08/23: Linked_List.cpp (implemented pushFront, insertAfter and pushBack method)
+11/08/23: Linked_List.cpp (implemented pushFront, insertAfter and pushBack methods)
 
-12/08/23: Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode method)
+12/08/23: Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode methods)
 
-13/08/23: Linked_List.cpp(implemented isEmpty, size, contains method)
+13/08/23: Linked_List.cpp(implemented isEmpty, size, contains methods)
 
-17/08/23:Doubly_Linked_List.cpp(implemented pushFront, pushBack method)
+17/08/23:Doubly_Linked_List.cpp(implemented pushFront, pushBack methods)
 
-01/09/23:Doubly_Linked_List.cpp(implemented insertAfter method)
+01/09/23:Doubly_Linked_List.cpp(implemented insertAfter methods)
 
-02/09/23: Doubly_Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode, isEmpty, size, contains method) 
+02/09/23: Doubly_Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode, isEmpty, size, contains methods) 
+
+23/09/23: stack.cpp (implemented push, pop, peek, clear, display, isEmpty, getSize, initialize methods)
 
 
 # Skills developped: 
