@@ -30,7 +30,7 @@ In preparation for my data structures course, I recognized the importance of del
 In essence, my journey is an orchestrated sequence, with each step leading to the next. From my foundational studies in Robotics Engineering to mastering Python and deep learning frameworks, and culminating in data structures and pointers, I am cultivating a robust skill set. By merging these skills, I aim to bridge the gap between robotics and AI, working on projects that leverage the synergy of these fields. This holistic approach prepares me for a successful career as an AI engineer, capable of crafting innovative solutions for complex challenges.
 
 
-# 2) Data Structures
+# 2) Data Structures and Algorithms
 
 # A) linked list:
 ![Singly-Linked-List1](https://github.com/Testeh69/ML_learning/assets/123935503/e2a00cfb-236b-4fbb-adc9-3b907ab0e7f7)
@@ -71,6 +71,14 @@ The space complexity for a stack. If an array or dynamic array is used, the spac
 
 Stacks are indeed used in various cases, including task management, memory management, and function call stack management in languages like C++, which rely heavily on stack frames for function calls. (23/09/2023)
 
+# D) Recursive Algorithm
+
+A recursive algorithm in python are algorithm that call themselves=>X**N = X*(X*X**N-2) = X*(X*(X*X*N-3)) = X*(X*(X*(....(X*X**0)...))).
+The recursive algorithm is separated in two phaes. The first phase is the depth first search where the algorithm call themselves until falling in X**N. The second phase is Backtraking where the result of the first node of calcul emerge until the last operations to obtain the result that we want.
+
+recursive algorithm are siple to code but difficult to design but all in all, we need to give the value of the final recursivity. 
+
+recursive algorithm use to travel in a tree data structure. (23/09/2023)
 
 
 # 3) Machine Learning and Artificial Intelligence
@@ -178,7 +186,7 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 02/09/23: Doubly_Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode, isEmpty, size, contains methods) 
 
-23/09/23: stack.cpp (implemented push, pop, peek, clear, display, isEmpty, getSize, initialize methods)
+23/09/23: stack.cpp (implemented push, pop, peek, clear, display, isEmpty, getSize, initialize methods), recursiveAlgorithm.c (implemente  puissance)
 
 
 # Skills developped: 
