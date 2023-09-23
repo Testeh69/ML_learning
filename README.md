@@ -174,7 +174,7 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 
 # Skills developped: 
-Data structures (linked list, doubly_linked_list, tree), C++(pointers, class),C (pointers),Python (class), git, github
+Data structures (linked list, doubly_linked_list, tree, stack), C++(pointers, class),C (pointers),Python (class), git, github
 python (tensor flow, numpy, pandas)
 
 
