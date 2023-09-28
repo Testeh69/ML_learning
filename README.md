@@ -186,8 +186,9 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 02/09/23: Doubly_Linked_List.cpp(implemented popFront, popBack, removeNode, getHead, getTail, getNode, isEmpty, size, contains methods) 
 
-23/09/23: stack.cpp (implemented push, pop, peek, clear, display, isEmpty, getSize, initialize methods), recursiveAlgorithm.c (implemente  puissance)
+23/09/23: stack.cpp (implemented push, pop, peek, clear, display, isEmpty, getSize, initialize methods), recursiveAlgorithm.c (implemented  puissance)
 
+29/09/23: recursiveAlgrotihm.c (palyndrome detector)
 
 # Skills developped: 
 Data structures (linked list, doubly_linked_list, tree, stack), C++(pointers, class, struct),C (pointers, struct),Python (class), git, github
