@@ -7,17 +7,40 @@
 float puissance(float x, int n);
 int factorielle(int x);
 int detectPalyndrome(char phr[], int debut, int fin);
+void deplacer(int nbDisk, int depart, int arrivee, int intermediaire);
 
 
 //function call
 void callPuissance();
 void callFactorielle();
 void callDetectPalyndrome();
-
+void callHanoiTower();
 
 int main(){
-    callDetectPalyndrome();
+    callHanoiTower();
     return 0;
+}
+
+void callHanoiTower(){
+    int nbd;
+    printf("Entrer le nombre de disques: ");
+    scanf("%d",&nbd);
+    printf("cout deplacement\n");
+    printf("-------------\n");
+    deplacer(nbd,1,2,3);
+}
+
+
+void deplacer(int nbDisk, int depart, int arrivee, int intermediaire){
+    static int coup = 0;
+    if (nbDisk ==1){
+        printf("%4d %d ->%d\n", ++coup,depart,arrivee);
+    }
+    else{
+        deplacer(nbDisk-1, depart, intermediaire, arrivee);
+        deplacer(1,depart,arrivee,intermediaire);
+        deplacer(nbDisk-1, intermediaire,arrivee,depart);
+    }
 }
 
 void callDetectPalyndrome(){
