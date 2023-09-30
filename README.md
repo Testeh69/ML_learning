@@ -17,6 +17,8 @@ Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQ
 
 -Machine Learning avec Scikit-Learn (Book O REILLY) autor Aurélion Géron
 
+-Algorithmique en C, C++, PHP, Java, Python autor Jean-Michel Léry
+
 # 1) REASONEMENT behind the studies:
 
 As of August 11, 2023, I am a student specializing in Robotics Engineering. The significance of both C++ and Python in this field cannot be overstated. These two programming languages are key tools that enable me to excel in both robotics and my aspirations in AI engineering.
