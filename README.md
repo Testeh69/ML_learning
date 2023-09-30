@@ -188,7 +188,9 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 23/09/23: stack.cpp (implemented push, pop, peek, clear, display, isEmpty, getSize, initialize methods), recursiveAlgorithm.c (implemented  puissance)
 
-29/09/23: recursiveAlgrotihm.c (palyndrome detector)
+29/09/23: recursiveAlgorithm.c (palyndrome detector)
+
+30/09/23: recursiveAlgorithm.c (hanoi tower)
 
 # Skills developped: 
 Data structures (linked list, doubly_linked_list, tree, stack), C++(pointers, class, struct),C (pointers, struct),Python (class), git, github
