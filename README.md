@@ -194,6 +194,8 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 30/09/23: recursiveAlgorithm.c (hanoi tower)
 
+01/10/23: cnn_cat_dog
+
 # Skills developped: 
 Data structures (linked list, doubly_linked_list, tree, stack), C++(pointers, class, struct),C (pointers, struct),Python (class), git, github
 python (tensor flow, numpy, pandas)
