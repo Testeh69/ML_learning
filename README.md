@@ -196,9 +196,11 @@ In this encoding, each class corresponds to a unique binary representation, with
 
 01/10/23: cnn_cat_dog
 
+07/10/23: ComputerVisionAnimalExpression
+
 # Skills developped: 
 Data structures (linked list, doubly_linked_list, tree, stack), C++(pointers, class, struct),C (pointers, struct),Python (class), git, github
-python (tensor flow, numpy, pandas)
+python (tensorflow, numpy, pandas)
 
 
 # Note: 
