@@ -57,9 +57,21 @@ Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQ
 
 13/10/23: weather_prediction
 
-# Skills developped: 
-Data structures (linked list, doubly_linked_list, tree, stack), C++(pointers, class, struct),C (pointers, struct),Python (class), git, github
-python (tensorflow, numpy, pandas)
+# Skills developped:
+
+Data structures (linked list, doubly_linked_list, tree, stack)
+
+Algorithms (Recursive)
+
+C++(pointers, class, struct)
+
+C (pointers, struct)
+
+Python (class, numpy,pandas, matplotlib, seaborn, sckitki-learn, keras, tensorflow)
+
+git
+
+github
 
 
 # Note: 
