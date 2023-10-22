@@ -57,6 +57,8 @@ Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQ
 
 13/10/23: weather_prediction
 
+22/10/23: weather_prediction ( recurrent neural networks)
+
 # Skills developped:
 
 Data structures (linked list, doubly_linked_list, tree, stack)
