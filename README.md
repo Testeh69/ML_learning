@@ -59,6 +59,8 @@ Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQ
 
 22/10/23: weather_prediction ( recurrent neural networks)
 
+28/10/23: tree.cpp( implementation of the display, search and insert method)
+
 # Skills developped:
 
 Data structures (linked list, doubly_linked_list, tree, stack)
