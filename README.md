@@ -61,7 +61,11 @@ Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQ
 
 28/10/23: tree.cpp( implementation of the display, search and insert method)
 
+22/11/23: housing_california_1 
+
 # Skills developped:
+
+Machine Learning: Pipeline, Handling data (Imputer, Normzalization), Fine-tuning
 
 Data structures (linked list, doubly_linked_list, tree, stack)
 
