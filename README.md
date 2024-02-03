@@ -15,6 +15,9 @@ Data Structures full courses using C/C++ (9:46 hours video) video https://www.yo
 -FreeCodeCamp:
 Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQmMdy8M&list=WL&index=4&t=4701s
 
+-Tensorflow:
+NLP Zero to Hero (series of video)
+
 -Machine Learning avec Scikit-Learn (Book O REILLY) autor Aurélion Géron
 
 -Deep Learning avec tensorflow et keras (Book O REILLY) autor Aurélion Géron
@@ -62,6 +65,8 @@ Pointers in C/C++ (3:47 hours video) video https://www.youtube.com/watch?v=zuegQ
 28/10/23: tree.cpp( implementation of the display, search and insert method)
 
 22/11/23: housing_california_1 
+
+03/02/24: NLP
 
 # Skills developped:
 
