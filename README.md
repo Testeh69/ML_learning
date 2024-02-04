@@ -68,6 +68,8 @@ NLP Zero to Hero (series of video)
 
 03/02/24: NLP
 
+04/02/24: NLP_AiVsHumanTextDetection
+
 # Skills developped:
 
 Machine Learning: Pipeline, Handling data (Imputer, Normzalization), Fine-tuning
