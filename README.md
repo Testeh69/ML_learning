@@ -70,6 +70,8 @@ NLP Zero to Hero (series of video)
 
 04/02/24: NLP_AiVsHumanTextDetection
 
+08/02/24: NLP_AiVsHumanTextDetection (99% accuracy for test)
+
 # Skills developped:
 
 Machine Learning: Pipeline, Handling data (Imputer, Normzalization), Fine-tuning
