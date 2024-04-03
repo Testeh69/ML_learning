@@ -72,6 +72,8 @@ NLP Zero to Hero (series of video)
 
 08/02/24: NLP_AiVsHumanTextDetection (99% accuracy for test)
 
+03/04/2024: MNIST
+
 # Skills developped:
 
 Machine Learning: Pipeline, Handling data (Imputer, Normzalization), Fine-tuning
