@@ -72,7 +72,11 @@ NLP Zero to Hero (series of video)
 
 08/02/24: NLP_AiVsHumanTextDetection (99% accuracy for test)
 
-03/04/2024: MNIST
+03/04/24: MNIST
+
+22/05/24:Chapitre_3_classification
+
+
 
 # Skills developped:
 
