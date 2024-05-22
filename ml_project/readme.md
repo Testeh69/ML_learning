@@ -1,4 +1,4 @@
-#Classification Algorithm
+# Classification Algorithm
 
 A classification algorithm is designed to handle discrete data and categorize it into distinct classes. It can be used for multi-class problems (where there are multiple possible categories) or for binary problems (where there are only two categories, for example, "is it a 5 or not?").
 
