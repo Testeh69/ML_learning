@@ -110,7 +110,7 @@ git
 
 github
 
-
+---
 > [!NOTE]
 > For certain ressources, you need to have things installed first for this ressources to run without accident.
 > 
