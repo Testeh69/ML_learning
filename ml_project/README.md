@@ -6,8 +6,6 @@
 
 [[Linear regression]]
 
-[[Decision Tree Classifier]]
-
 [[Stochastic Gradient Descent]]
 
 
@@ -26,4 +24,3 @@
 
 ==**Clustering Algorithm**:==
 
-[[k-means]]
