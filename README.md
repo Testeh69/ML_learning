@@ -5,7 +5,7 @@ this repository contains all the notes and project that i used to develop my ski
 
 ### Use of the repo
 
-If you want to donwload the repo and see the projects do the command below.
+If you want to donwload the repo and see the projects, do the command below.
 
 ```bash
 git clone https://github.com/Testeh69/ML_learning.git
