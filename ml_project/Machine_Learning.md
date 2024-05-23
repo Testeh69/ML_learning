@@ -14,10 +14,11 @@ from sklearn.model_selection import GridSearchCV
 param_grid = {"parameter_one": [variable, variable_one ....],
 			  "Parameter_two": ......}
 
-grid_search = GridSearchCV(ML_Model, param_grid, cv = 5 , scoring = "str", n_jobs = - 1 , verbose = int)
+grid_search = GridSearchCV(ML_Model, param_grid, cv = int , scoring = "str", n_jobs = int , verbose = int)
 grid_search.fit(X_train, y_train)
 ```
-
+cv: number of cross validation
+n_jobs: use of CPU for parrallel processing
 
 #Sélectionner_le_meilleur_modèle
 
