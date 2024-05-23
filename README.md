@@ -11,7 +11,7 @@ If you want to donwload the repo and see the projects do the command below.
 git clone https://github.com/Testeh69/ML_learning.git
 
 ```
-Note: For certain ressources, you need to have things installed first for this ressources to run without accident.
+
 
 ### Resources:
 
@@ -111,5 +111,6 @@ git
 github
 
 
-# Note: 
-Please note that I am a French student studying AI and computer science during my free time. While I strive for accuracy, errors may occur. If you identify any inaccuracies, kindly notify me via email at norefice45@gmail.com.
+> [!NOTE]
+> For certain ressources, you need to have things installed first for this ressources to run without accident.
+> Please note that I am a French student studying AI and computer science during my free time. While I strive for accuracy, errors may occur. If you identify any inaccuracies, kindly notify me via email at norefice45@gmail.com.
