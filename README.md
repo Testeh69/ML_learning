@@ -2,12 +2,15 @@
 this repository contains all the notes and project that i used to develop my skills in machine learning, deep learning and artificial intelligence.
 
 
-# USE OF THE REPO
+# Use of the repo
+
+If you want to donwload the repo and see the projects do the command below.
 
 ```bash
-git clone 
+git clone https://github.com/Testeh69/ML_learning.git
 
 ```
+Note: For certain ressources, you need to have things installed first for this ressources to run without accident.
 
 Resources:
 
