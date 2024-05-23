@@ -1,8 +1,9 @@
 # ML_learning
+
 this repository contains all the notes and project that i used to develop my skills in machine learning, deep learning and artificial intelligence.
 
 
-# Use of the repo
+### Use of the repo
 
 If you want to donwload the repo and see the projects do the command below.
 
@@ -12,7 +13,7 @@ git clone https://github.com/Testeh69/ML_learning.git
 ```
 Note: For certain ressources, you need to have things installed first for this ressources to run without accident.
 
-Resources:
+### Resources:
 
 -FreeCodeCamp:
 Free Certification (Scientific computing with python, data analysis with python and machine learning with python)
@@ -37,13 +38,13 @@ NLP Zero to Hero (series of video)
 
 
 
-# Note Computer science and Machine Learning:
+### Note Computer science and Machine Learning:
 
 -The computer does not understand letters so we have to convert letters into numbers.
 
 
 
-# Projects:
+### Projects:
 
 09/08/23: Linked_list.cpp
 
@@ -89,7 +90,9 @@ NLP Zero to Hero (series of video)
 
 
 
-# Skills developped:
+### Skills developped:
+
+Math (Linear equation)
 
 Machine Learning: Pipeline, Handling data (Imputer, Normzalization), Fine-tuning
 
