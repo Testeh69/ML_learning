@@ -1,6 +1,14 @@
 # ML_learning
 this repository contains all the notes and project that i used to develop my skills in machine learning, deep learning and artificial intelligence.
 
+
+# USE OF THE REPO
+
+```bash
+git clone 
+
+```
+
 Resources:
 
 -FreeCodeCamp:
