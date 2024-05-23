@@ -38,7 +38,8 @@ NLP Zero to Hero (series of video)
 
 
 
-> [!NOTE]Computer science and Machine Learning:
+> [!NOTE]
+>Computer science and Machine Learning:
 > 
 > The computer does not understand letters so we have to convert letters into numbers.
 
