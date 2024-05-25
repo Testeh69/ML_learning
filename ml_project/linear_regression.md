@@ -8,7 +8,7 @@ source: https://haltode.fr/algo/ia/apprentissage_artificiel/regression_lin_poly/
 
 une régrésion linéaire est une fonction affine sous la forme:
 
-$$\hat{y} = a1*x1 + a2*x2 + a3*x3 + .... + a0 = X \cdot \theta$$  
+$$ \hat{y} = a1*x1 + a2*x2 + a3*x3 + .... + a0 = X \cdot \theta $$  
 
 	avec y : output estimé du modèle
 		 xN: paramètre d'entrée 
@@ -25,7 +25,7 @@ Où :
 - $\hat{y}_i$ est la valeur estimée du modèle
 
 
-$MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2$
+$ MSE = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $
 
 Où :
 - n est le nombre d'observations.
