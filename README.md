@@ -81,6 +81,8 @@ NLP Zero to Hero (series of video)
 
 22/05/24:Chapitre_3_classification
 
+25/05/24: ML_chapitre_3_ex1
+
 
 
 ### Skills developped:
