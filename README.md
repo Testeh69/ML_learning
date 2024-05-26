@@ -91,7 +91,7 @@ NLP Zero to Hero (series of video)
 
 Math (Linear equation)
 
-Machine Learning: Pipeline, Handling data (Imputer, Normzalization), Fine-tuning
+Machine Learning: Pipeline, Handling data (Imputer, Normalization), Fine-tuning
 
 Data structures (linked list, doubly_linked_list, tree, stack)
 
