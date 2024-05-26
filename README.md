@@ -83,6 +83,8 @@ NLP Zero to Hero (series of video)
 
 25/05/24: ML_chapitre_3_ex1
 
+26/05/24: Classification_ham_spam
+
 
 
 ### Skills developped:
