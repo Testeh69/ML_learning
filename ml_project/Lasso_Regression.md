@@ -21,7 +21,9 @@ After this we just add to the loss function
 $$\alpha \sum_{i=1}^{n} |\theta_i|$$ 
 
 
-$$J(\theta) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \alpha \sum_{i=1}^{n} |\theta_i| $$
+$$
+J(\theta) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \alpha \sum_{i=1}^{n} |\theta_i|
+$$
 
 **For the solution of the gradient descent, we derivate, the function loss:**
 
