@@ -4,7 +4,7 @@
 source: https://haltode.fr/algo/ia/apprentissage_artificiel/regression_lin_poly/equation_normale.html
 
 
-#### Math
+### Math
 
 A linear regression is an affine function under the form:
 
@@ -31,7 +31,7 @@ Where :
 
 
 
-##### Analytic Resolution
+### Analytic Resolution
 
 We can find the parametrer optimal by using the normal equation. The **normal equation** is an algrebric method that permit us to find the optimal value of the parameter of the linear regression model. To a model of linear regression (one features), the normal equation is exprimed by the following equation.
 
