@@ -6,6 +6,10 @@
 
 [[Linear regression]]
 
+[[Ridge Regression]]
+
+[[Lasso Regression]]
+
 [[Stochastic Gradient Descent]]
 
 
