@@ -52,28 +52,26 @@ $η$ est le taux d'apprentissage
 
 ---
 
-#Parameters : 
-- **Learning Rate (𝜂η)**: Controls the step size of each update.
-- **Batch Size**: Number of training examples used in each iteration.
-- **Convergence Criteria**: Conditions for stopping the training process.
-- **Regularization (L1, L2)**: Techniques to prevent overfitting.
-- **Loss Function**: Function that measures the error.
-- **Momentum**: Helps accelerate SGD in the relevant direction and dampens oscillations.
-- **Early Stopping**: Stops training when the performance on a validation set stops improving.
+Parameters:
+Learning Rate (𝜂): Controls the step size of each update.
+Batch Size: Number of training examples used in each iteration.
+Convergence Criteria: Conditions for stopping the training process.
+Regularization (L1, L2): Techniques to prevent overfitting.
+Loss Function: Function that measures the error.
+Momentum: Helps accelerate SGD in the relevant direction and dampens oscillations.
+Early Stopping: Stops training when the performance on a validation set stops improving.
 
-#Avantages :
-- **Efficient with Large Data**: Handles large datasets effectively.
-- **Online Learning**: Can adapt to new data incrementally.
-- **Rapid Convergence**: Often converges faster than batch gradient descent.
-- **Regularization Support**: Supports L1 and L2 regularization.
+Advantages:
+Efficient with Large Data: Handles large datasets effectively.
+Online Learning: Can adapt to new data incrementally.
+Rapid Convergence: Often converges faster than Batch Gradient Descent.
+Regularization Support: Supports L1 and L2 regularization.
 
-#Disavantages :
-
-- **Stochastic Nature**: Introduces randomness, which can lead to noisy updates.
-- **Tuning Learning Rate**: Requires careful tuning for optimal performance.
-- **Sensitivity to Feature Scaling**: Features need to be scaled properly.
-- **Limited Modeling Capabilities**: Primarily suited for linear models.
-
+Disadvantages:
+Stochastic Nature: Introduces randomness, which can lead to noisy updates.
+Tuning Learning Rate: Requires careful tuning for optimal performance.
+Sensitivity to Feature Scaling: Features need to be scaled properly.
+Limited Modeling Capabilities: Primarily suited for linear models.
 ---
 
 #SGD_Codes:
