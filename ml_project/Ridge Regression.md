@@ -1,3 +1,4 @@
+# Ridge Regression
 
 The ridge regression also called Tikhonov regularisation is a regularisation version of the linear regression (l2). A term of $\alpha \sum_{i=1}^{n} \theta_i^2$ is added at the loss function.
 
