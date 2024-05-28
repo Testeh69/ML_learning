@@ -1,10 +1,23 @@
-# Stochastic Gradient Descent
 
-Can be used in a linear problem and a classifier problem.
+#Gradient Descent
 
-SGD Classifier also called **Stochastic Gradient Descent** is a machine learning algorithm that works by progressively changing the model parameters in the direction of the ==loss function== sharpest gradient.
+Gradient Descent (GD) is a machine learning algorithm that works by progressively changing the model parameters in the direction of the steepest gradient of the loss function.
 
-**Stochastic**: *employing mini-batches or random subsets of the training data in each itteration to introduce a degree of randomness. The randomness can help escape local minimum.*
+There exist multiple versions of Gradient Descent, such as **Stochastic Gradient Descent**, **Mini-Batch Gradient Descent**, and **Batch Gradient Descent**.
+
+The normal gradient descent algorithm (Batch Gradient Descent) tends to move slowly towards the global minimum of the function but can have trouble escaping local minima.
+
+On the other hand, Stochastic and Mini-Batch Gradient Descent algorithms are better at escaping local minima but tend to approximate the global minimum rather than finding it exactly.
+
+### Definitions:
+
+**Mini-Batch Gradient Descent**:
+
+- This method updates the model parameters using a small, randomly selected subset of the training data (a mini-batch) at each iteration. This approach balances the trade-off between the noisy updates of Stochastic Gradient Descent and the stability of Batch Gradient Descent.
+
+**Stochastic Gradient Descent (SGD)**:
+
+- This method updates the model parameters using only one training example at a time. By employing mini-batches or random subsets of the training data in each iteration, it introduces a degree of randomness. This randomness can help the algorithm escape local minima.
 
 ---
 
