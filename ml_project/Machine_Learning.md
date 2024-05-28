@@ -3,7 +3,7 @@
 
 The selection of a metrics can be important as it involves the performance of the machine learning model and his time of training.
 
-#### Selection of a model
+### Selection of a model
 
 > [!NOTE]
 > Linear models learns sums and difference but can't learn anything more complex than this
