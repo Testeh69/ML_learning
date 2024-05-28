@@ -15,7 +15,10 @@ $$
 $$
 J(\theta) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2
 $$
-After this we just add to the loss function the $\alpha \sum_{i=1}^{n} |\theta_i|$ :
+
+After this we just add to the loss function
+
+$$\alpha \sum_{i=1}^{n} |\theta_i|$$ 
 
 
 $$J(\theta) = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 + \alpha \sum_{i=1}^{n} |\theta_i| $$
