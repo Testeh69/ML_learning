@@ -1,5 +1,5 @@
 
-#Gradient Descent
+# Gradient Descent
 
 Gradient Descent (GD) is a machine learning algorithm that works by progressively changing the model parameters in the direction of the steepest gradient of the loss function.
 
@@ -21,7 +21,7 @@ On the other hand, Stochastic and Mini-Batch Gradient Descent algorithms are bet
 
 ---
 
-#Mathématique
+# Mathématique
 
 Soit une fonction #loss ([[Vocabulaire]]) $J(θ)$ (pour cette exemple la fonction loss est la fonction hinge loss) qui permet d'estimer la différence entre  le résultat trouvé par une fonction $hθ​(xi​)$ et le résultat véritable.
 
