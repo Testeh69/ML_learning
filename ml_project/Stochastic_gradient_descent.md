@@ -52,7 +52,8 @@ $η$ est le taux d'apprentissage
 
 ---
 
-Parameters:
+### Parameters:
+
 Learning Rate (𝜂): Controls the step size of each update.
 
 Batch Size: Number of training examples used in each iteration.
@@ -67,7 +68,8 @@ Momentum: Helps accelerate SGD in the relevant direction and dampens oscillation
 
 Early Stopping: Stops training when the performance on a validation set stops improving.
 
-Advantages:
+### Advantages:
+
 Efficient with Large Data: Handles large datasets effectively.
 
 Online Learning: Can adapt to new data incrementally.
@@ -76,7 +78,7 @@ Rapid Convergence: Often converges faster than Batch Gradient Descent.
 
 Regularization Support: Supports L1 and L2 regularization.
 
-Disadvantages:
+### Disadvantages:
 
 Stochastic Nature: Introduces randomness, which can lead to noisy updates.
 
