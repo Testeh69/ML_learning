@@ -85,6 +85,8 @@ NLP Zero to Hero (series of video)
 
 26/05/24: Classification_ham_spam
 
+16/06/24: SVM_MNIST
+
 
 
 ### Skills developped:
