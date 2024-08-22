@@ -36,6 +36,7 @@ NLP Zero to Hero (series of video)
 
 -Algorithmique en C, C++, PHP, Java, Python autor Jean-Michel Léry
 
+-Deep RL Course in Hugging face hub https://huggingface.co/learn/deep-rl-course/unit0/introduction
 
 ### Projects:
 
@@ -87,6 +88,8 @@ NLP Zero to Hero (series of video)
 
 16/06/24: SVM_MNIST
 
+
+22/08/24: Lunar_landing.ipynb
 
 
 ### Skills developped:
