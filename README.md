@@ -106,7 +106,7 @@ C++(pointers, class, struct)
 
 C (pointers, struct)
 
-Python (class, numpy,pandas, matplotlib, seaborn, sckikit-learn, keras, tensorflow)
+Python (class, numpy,pandas, matplotlib, seaborn, scikit-learn, keras, tensorflow)
 
 git
 
