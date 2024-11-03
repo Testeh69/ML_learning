@@ -88,9 +88,9 @@ NLP Zero to Hero (series of video)
 
 16/06/24: SVM_MNIST
 
-
 22/08/24: Lunar_landing.ipynb
 
+03/11/24: chapitre-5.ipynb
 
 ### Skills developped:
 
