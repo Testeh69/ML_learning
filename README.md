@@ -92,11 +92,13 @@ NLP Zero to Hero (series of video)
 
 03/11/24: chapitre-5.ipynb
 
+05/11/24: tensorflow_data.ipynb
+
 ### Skills developped:
 
-Math (Linear equation)
+Math (Linear equation, Matrice)
 
-Machine Learning: Pipeline, Handling data (Imputer, Normalization), Fine-tuning
+Machine Learning: Pipeline, Handling data (Imputer, Normalization), Fine-tuning, Embedding
 
 Data structures (linked list, doubly_linked_list, tree, stack)
 
