@@ -94,6 +94,8 @@ NLP Zero to Hero (series of video)
 
 05/11/24: tensorflow_data.ipynb
 
+30/12/25: nn.py and tokenizer.py
+
 ### Skills developped:
 
 Math (Linear equation, Matrice)
